@@ -1,0 +1,137 @@
+/* цвет основного текста #212121*/
+
+/* цвет вторичного текста #757575*/
+
+/*#2196F3 акцент синий*/
+
+/*#FFFFFF белый*/
+
+/* вторичный цвет фона #F5F4FA */
+
+/* футер копирайт rgba(255, 255, 255, 0.4); */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* навигация  */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--title-text-color);
+}
+
+/* контакты */
+
+.contacts-link {
+  color: var(--primary-text-color);
+}
+
+.contacts-link:hover,
+:focus {
+  color: var(--accent-color);
+}
+
+/* герой */
+
+.hero-title {
+  color: var(--primary-white-color);
+  background: rgba(47, 48, 58, 0.8);;
+}
+
+.button {
+    color: var(--primary-white-color);
+    background:var(--accent-color)
+}
+
+/* преимущества */
+
+.benefits-item {
+  color: var(--title-text-color);
+}
+
+/* предоставляемые услуги */
+
+.products-title {
+  color: var(--title-text-color);
+}
+
+.products-item {
+  color: var(--primary-white-color);
+  background: rgba(47, 48, 58, 0.8);;
+}
+
+/* команда */
+
+.workers {
+  background-color: #f5f4fa;
+}
+
+.workers-title {
+  color: var(--title-text-color);
+}
+
+.workers-subtitle {
+  color: var(--title-text-color);
+}
+
+/* клиенты */
+
+.clients-title {
+  color: var(--title-text-color);
+}
+
+/* футер */
+
+footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: var(--primary-white-color);
+}
+
+address {
+  color: var(--primary-white-color);
+}
+
+.footer.contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* соцсети */
+
+.socials-subtitle {
+    color: var(--primary-white-color)};
+}
+
+.copyright {
+    color:rgba(255, 255, 255, 0.4);
+}
