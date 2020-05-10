@@ -17,6 +17,7 @@
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
@@ -25,14 +26,24 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* навигация  */
 
 .site-nav .link {
   color: var(--title-text-color);
+  letter-spacing: 0.02em;
 }
 
 .logo {
   color: var(--title-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 0.03em;
 }
 
 .web {
@@ -45,13 +56,14 @@ ul {
 }
 
 .site-nav .link.current {
-  color: var(--title-text-color);
+  color: var(--accent-color);
 }
 
 /* контакты */
 
 .contacts-link {
   color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
 
 .contacts-link:hover,
@@ -63,29 +75,57 @@ ul {
 
 .hero-title {
   color: var(--primary-white-color);
-  background: rgba(47, 48, 58, 0.8);;
+  background: rgba(47, 48, 58, 0.8);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-.button {
-    color: var(--primary-white-color);
-    background:var(--accent-color)
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
 }
 
 /* преимущества */
 
 .benefits-item {
   color: var(--title-text-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* предоставляемые услуги */
 
 .products-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 
 .products-item {
   color: var(--primary-white-color);
-  background: rgba(47, 48, 58, 0.8);;
+  background: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* команда */
@@ -94,18 +134,39 @@ ul {
   background-color: #f5f4fa;
 }
 
+div {
+  background-color: var(--primary-white-color);
+}
+
 .workers-title {
   color: var(--title-text-color);
 }
 
 .workers-subtitle {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
+.workers-item {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
 }
 
 /* клиенты */
 
 .clients-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* футер */
@@ -116,22 +177,43 @@ footer {
 
 .footer-logo {
   color: var(--primary-white-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 address {
   color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .footer.contacts {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* соцсети */
 
 .socials-subtitle {
-    color: var(--primary-white-color)};
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .copyright {
-    color:rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
 }
