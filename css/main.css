@@ -54,7 +54,7 @@ a {
 }
 
 .site-nav .link:hover,
-:focus {
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 
@@ -73,7 +73,7 @@ a {
 }
 
 .contacts-link:hover,
-:focus {
+.contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -193,7 +193,7 @@ footer {
   letter-spacing: 0.03em;
 }
 
-address {
+address a {
   color: var(--primary-white-color);
   font-weight: 400;
   font-size: 14px;
@@ -225,5 +225,54 @@ address {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
+  letter-spacing: 0.03em;
+}
+
+/* СТРАНИЦА portfolio.htm */
+
+/* потрфолио */
+.button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio.title {
+  color: var(--title-text-color);
+}
+
+/* примеры работ */
+
+.examples.title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples.item {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.examples.text {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
 }
